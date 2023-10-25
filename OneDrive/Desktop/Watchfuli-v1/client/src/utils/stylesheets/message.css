@@ -1,0 +1,76 @@
+/* *{border: 1px solid blue;} */
+
+hr {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.from-to {
+    color: #b3d733;
+    text-shadow: black 4px 4px 4px;
+}
+
+.dm-body {
+    text-align: center;
+}
+
+textarea {
+    border-radius: 10px;
+    background-color: #f7f0d4;
+    font-size: 18px;
+}
+
+.DM {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.dm-title {
+    font-size: 32px;
+    text-shadow: darkgray 4px 4px 4px;
+}
+
+.message-hide {
+    display: none;
+}
+
+.message {
+    border: 3px black solid;
+    padding: 2px;
+    border-radius: 10px;
+    background-color: #80a2fe;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-top: 5px;
+    box-shadow: black 8px 10px 4px;
+}
+
+.btn-div {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.delete-btn, .reply-btn {
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: black 4px 4px 4px;
+    border: 2px black solid;
+    font-weight: bolder;
+}
+
+.delete-btn {
+    background-color: #ff3333;
+}
+
+.reply-btn {
+    background-color: #fccb1d;
+}
+
+.delete-btn:hover, .reply-btn:hover {
+    box-shadow: black 0 0 0;
+}
+

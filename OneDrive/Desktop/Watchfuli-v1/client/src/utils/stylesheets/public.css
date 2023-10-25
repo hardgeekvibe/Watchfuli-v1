@@ -1,0 +1,139 @@
+/* *{border: 1px solid blue;} */
+
+.head {grid-area: head;}
+.left {grid-area: left;}
+.right {grid-area: right;}
+
+.public-grid {
+    display: grid;
+    grid-template-areas: 
+        'head head'
+        'left right';
+    gap: 5px;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 84.5vh;
+}
+
+.head {
+    background-color: #ff9999;
+    border: 3px #0247FE solid;
+    border-radius: 2em;
+    margin: 5px;
+}
+
+.left {
+    background-color: #4d7dfe;
+    border: 3px red solid;
+    border-radius: 2em;
+    margin-left: 5px;
+}
+
+.right {
+    background-color: #fefe67;
+    border: #0247FE solid;
+    border-radius: 2em;
+    margin-right: 5px;
+}
+
+.head-title {
+    color: black;
+    text-align: center;
+    text-shadow: #fe2e1b 4px 4px 4px;
+}
+
+.content-head {
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+.hard {
+    font-style: italic;
+    color: #FEFE33;
+    font-weight: bolder;
+    text-shadow: black 4px 4px 3px;
+}
+
+.hard-1 {
+    font-style: italic;
+    color: #0247FE;
+    font-weight: bolder;
+    text-shadow: black 4px 4px 3px;
+}
+
+.pic-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.who-pic {
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 5em;
+}
+
+.problem-title {
+    color: black;
+    text-align: center;
+    text-shadow: #0247fe 4px 4px 4px;
+}
+
+.content-problem {
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+.chart {
+    text-align: center;
+    font-size: 172px;
+    text-shadow: #0247fe 10px 10px 8px;
+}
+
+.solution-title {
+    color: black;
+    text-align: center;
+    text-shadow: #989801 4px 4px 4px;
+}
+
+.content-solution {
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+@media only screen and (min-width:320px) and (max-width:415px) {
+    body {
+        overflow-x: hidden;
+    }
+    .public-grid {
+        grid-template-areas: 
+        'head'
+        'left'
+        'right';
+        grid-template-columns: 1fr;
+    }
+
+    .left, .right {
+        margin: 5px;
+    }
+
+    .pic-div {
+        display: none;
+    }
+    .chart {
+        display: none;
+    }
+}

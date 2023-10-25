@@ -1,0 +1,41 @@
+
+
+.contact.cards {
+    max-height: 300px;
+}
+
+.contact {
+    border: 3px black solid;
+    padding: 2px;
+    border-radius: 10px;
+    background-color: #ff9999;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-top: 5px;
+    box-shadow: black 8px 10px 4px;
+}
+
+.filter {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    background-color: #0247FE;
+    border: 2px red solid;
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+
+.role {
+    background-color: blanchedalmond;
+    border: 2px black solid;
+    border-radius: 10px;
+    padding: 3px;
+    box-shadow: black 6px 1px 4px;
+    /* font-weight: bold; */
+}
+
+.role:hover {
+    box-shadow: black 0 0 0 ;
+    background-color: #ff9999
+}

@@ -1,0 +1,11 @@
+.urgency {
+    border-radius: 10px;
+    color: yellow;
+    margin-bottom: 10px;
+    text-shadow: red 4px 4px 4px;
+    padding: 5px;
+}
+
+.urgency input {
+    margin-left: 8px
+ }

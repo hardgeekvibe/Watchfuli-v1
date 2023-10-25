@@ -1,0 +1,35 @@
+/* *{border: 1px solid blue;} */
+
+*, body, html, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #4d4d4d;
+}
+
+input {
+    outline: none;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.phone-toggle:hover, a:hover {
+    cursor: pointer
+}
+
+.DM-badge {
+    background-color: red;
+    color: white;
+    padding: 2px 8px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 50%;
+    border: 3px black solid;
+    position: absolute;
+    /* text-shadow: black 4px 4px 4px; */
+}
